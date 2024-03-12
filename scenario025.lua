@@ -19,7 +19,7 @@ local scenariodata = {
 	‣ Send out many Construction Bots to build Metal Extractors all across the map.
 	‣ The Area Mex command allows you to draw a cirle, and your constructors will capture every Extractor within it.
 	‣ Do not stop the expansion once you start building combat units. You will also need many solar collectors to sustain production.
-	‣ A good start is building 3 Metal Extractors, followed by 2 Solar Collectors, then a Bot Lab to build more constructors.
+	‣ A good start is building 2-3 Metal Extractors, followed by 2 Solar Collectors, then a Bot Lab to build more constructors.
  
 			 
 	The difficulty modifier will change the amount of resources the enemy receives from metal and energy production structures:
