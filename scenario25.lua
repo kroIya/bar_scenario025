@@ -1,7 +1,7 @@
 local scenariodata = {
 	index			= 25, --  integer, sort order, MUST BE EQUAL TO FILENAME NUMBER
 	scenarioid		= "rcrmexrace", -- no spaces, lowercase, this will be used to save the score
-    version         = "0.3", -- increment this to keep the score when changing a mission
+    version         = "0.4", -- increment this to keep the score when changing a mission
 	title			= "Rich Resource Race", -- can be anything
 	author			= "kroIya", -- your name here
 	imagepath		= "scenario024.jpg", -- placed next to lua file, should be 3:1 ratio banner style
@@ -13,6 +13,7 @@ local scenariodata = {
 	Tips:
 	 
 	‣ Wind is not efficient on this map due to the atmospheric conditions. Use solar energy.
+	‣ The Commander does not have access to the D-Gun in this scenario, so it is much more vulnerable to other units.
 	‣ You need a Tier 2 Lab to produce any combat units. A Tier 2 Lab can be built by a Tier 1 Construction Bot.
 	‣ Your opponent has the same restrictions, so you do not have to worry about early aggression.
 	‣ Send out many Construction Bots to build Metal Extractors all across the map.
@@ -99,7 +100,7 @@ local scenariodata = {
 
 	[team1]
 	{
-		Side = Random;
+		Side = Arm;
 		Handicap = __ENEMYHANDICAP__;
 		RgbColor = 0.88436127 0.07208818 0.09521562;
 		AllyTeam = 1;
@@ -170,6 +171,12 @@ local scenariodata = {
 	{
 		__RESTRICTEDUNITS__
 	}
+	
+	[MODOPTIONS]
+	{
+		tweakunits = e2FybWNvbT17d2VhcG9uZGVmcz17ZGlzaW50ZWdyYXRvcj17cmFuZ2U9MSx9LH0sfSxhcm1obHQ9e3dlYXBvbmRlZnM9e2FybV9sYXNlcmgxPXtkYW1hZ2U9e2RlZmF1bHQ9MTUwLH0sfSx9LH0sfQ;
+	}
+
 }
 	]],
 }
