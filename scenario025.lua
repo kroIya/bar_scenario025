@@ -130,6 +130,7 @@ local scenariodata = {
     [modoptions]
     {
         scenariooptions = __SCENARIOOPTIONS__;
+		tweakunits = e2FybWNvbT17d2VhcG9uZGVmcz17ZGlzaW50ZWdyYXRvcj17cmFuZ2U9MSx9LH0sfSxhcm1obHQ9e3dlYXBvbmRlZnM9e2FybV9sYXNlcmgxPXtkYW1hZ2U9e2RlZmF1bHQ9MTUwLH0sfSx9LH0sfQ;
     }
 
 
@@ -172,10 +173,6 @@ local scenariodata = {
 		__RESTRICTEDUNITS__
 	}
 	
-	[MODOPTIONS]
-	{
-		tweakunits = e2FybWNvbT17d2VhcG9uZGVmcz17ZGlzaW50ZWdyYXRvcj17cmFuZ2U9MSx9LH0sfSxhcm1obHQ9e3dlYXBvbmRlZnM9e2FybV9sYXNlcmgxPXtkYW1hZ2U9e2RlZmF1bHQ9MTUwLH0sfSx9LH0sfQ;
-	}
 
 }
 	]],
